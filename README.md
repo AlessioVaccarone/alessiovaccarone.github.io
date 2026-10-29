@@ -1,14 +1,5 @@
-# Sito personale di Alessio Vaccarone
+# Repository cancellato
 
-Questo repository contiene un semplice sito web statico in HTML, CSS e JavaScript.
+Il contenuto del sito è stato rimosso e sostituito con una pagina vuota.
 
-## Come aprirlo
-
-- Apri `index.html` nel browser.
-- Oppure usa un server locale se vuoi vederlo in modo più fedele.
-
-## Struttura
-
-- `index.html` — contenuto principale
-- `styles.css` — stile del sito
-- `script.js` — script semplice
+Questo non elimina il repository GitHub, ma annulla il sito creato.
