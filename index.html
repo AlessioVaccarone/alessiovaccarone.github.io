@@ -3,199 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alessio Vaccarone</title>
     <meta
       name="description"
-      content="Portfolio personale di Alessio Vaccarone — designer e sviluppatore creativo." 
-    />
-    <title>Alessio Vaccarone | Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
+      content="Sito personale di Alessio Vaccarone"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="bg-orb orb-1"></div>
-    <div class="bg-orb orb-2"></div>
-    <div class="bg-grid"></div>
-
     <header class="site-header">
       <div class="container nav">
-        <a href="#top" class="brand" aria-label="Home">
-          <span class="brand-mark">A</span>
-          <span>Alessio</span>
-        </a>
-
-        <nav class="nav-links" aria-label="Navigazione principale">
+        <div class="logo">Alessio</div>
+        <nav class="nav-menu" aria-label="Menu principale">
+          <a href="#home">Home</a>
           <a href="#about">Chi sono</a>
-          <a href="#work">Lavori</a>
-          <a href="#services">Servizi</a>
+          <a href="#projects">Progetti</a>
           <a href="#contact">Contatti</a>
         </nav>
-
-        <a href="#contact" class="button button-primary">Contattami</a>
       </div>
     </header>
 
-    <main id="top">
+    <main id="home">
       <section class="hero container">
-        <div class="hero-copy">
-          <p class="eyebrow">Creative developer • Designer • Builder</p>
-          <h1>
-            Creo <span>esperienze digitali</span>
-            che lasciano il segno.
-          </h1>
+        <div class="hero-text">
+          <p class="eyebrow">Benvenuto</p>
+          <h1>Io sono Alessio Vaccarone</h1>
           <p class="lead">
-            Sviluppo siti, brand e prodotti digitali con un approccio elegante,
-            funzionale e orientato al risultato.
+            Creo siti web semplici, chiari e funzionali, pensati per essere
+            belli da vedere e facili da usare.
           </p>
-
-          <div class="cta-row">
-            <a href="#work" class="button button-primary">Guarda i progetti</a>
-            <a href="#about" class="button button-secondary">Chi sono</a>
-          </div>
-
-          <ul class="stats" aria-label="Statistiche">
-            <li><strong>5+</strong><span>Anni</span></li>
-            <li><strong>20+</strong><span>Progetti</span></li>
-            <li><strong>100%</strong><span>Passione</span></li>
-          </ul>
-        </div>
-
-        <div class="hero-visual" aria-label="Illustrazione personale">
-          <div class="card profile-card">
-            <div class="avatar-ring">
-              <div class="avatar">A</div>
-            </div>
-            <div class="profile-meta">
-              <span class="badge">Disponibile</span>
-              <h2>Alessio Vaccarone</h2>
-              <p>Design • Coding • Digital Strategy</p>
-            </div>
-          </div>
-          <div class="mini-card mini-card-top">UI/UX</div>
-          <div class="mini-card mini-card-bottom">Branding</div>
-        </div>
-      </section>
-
-      <section id="about" class="container section">
-        <div class="section-heading">
-          <p class="eyebrow">Chi sono</p>
-          <h2>Trasformo idee in esperienze memorabili.</h2>
-        </div>
-
-        <div class="about-grid">
-          <div class="about-copy">
-            <p>
-              Sono Alessio e mi occupo di progettare e sviluppare esperienze digitali
-              che uniscono creatività, usabilità e performance. Il mio obiettivo è creare
-              soluzioni che non solo sembrano belle, ma funzionano davvero bene.
-            </p>
-            <p>
-              Ho lavorato a progetti personali e professionali che spaziano dal branding
-              alla realizzazione di siti web, fino alla definizione di identità visive
-              coerenti e moderne.
-            </p>
-          </div>
-
-          <div class="info-panel">
-            <div>
-              <span class="label">Base</span>
-              <strong>Italia</strong>
-            </div>
-            <div>
-              <span class="label">Focus</span>
-              <strong>Web Design & Development</strong>
-            </div>
-            <div>
-              <span class="label">Linguaggi</span>
-              <strong>HTML • CSS • JS</strong>
-            </div>
+          <div class="buttons">
+            <a class="button primary" href="#projects">Vedi progetti</a>
+            <a class="button secondary" href="#contact">Contattami</a>
           </div>
         </div>
       </section>
 
-      <section id="work" class="container section">
-        <div class="section-heading">
-          <p class="eyebrow">Lavori</p>
-          <h2>Progetti che uniscono estetica e funzione.</h2>
-        </div>
-
-        <div class="projects-grid">
-          <article class="project-card">
-            <div class="project-visual visual-one"></div>
-            <div class="project-content">
-              <span>Branding</span>
-              <h3>Studio Nox</h3>
-              <p>Identità visiva e landing page per un brand creativo moderno.</p>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-visual visual-two"></div>
-            <div class="project-content">
-              <span>Web Design</span>
-              <h3>Northstar Labs</h3>
-              <p>Sito corporate con UX curata e forte impatto visivo.</p>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-visual visual-three"></div>
-            <div class="project-content">
-              <span>E-commerce</span>
-              <h3>Veloura</h3>
-              <p>Esperienza di acquisto premium per un negozio di lifestyle.</p>
-            </div>
-          </article>
-        </div>
+      <section id="about" class="section container">
+        <h2>Chi sono</h2>
+        <p>
+          Sono una persona appassionata di tecnologia, design e sviluppo web.
+          Mi piace creare pagine moderne, ordinate e facili da navigare.
+        </p>
       </section>
 
-      <section id="services" class="container section">
-        <div class="section-heading">
-          <p class="eyebrow">Servizi</p>
-          <h2>Come posso aiutarti.</h2>
-        </div>
-
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="icon">01</div>
-            <h3>Brand Identity</h3>
-            <p>Creazione di identità visive forti e riconoscibili.</p>
-          </div>
-
-          <div class="service-card">
-            <div class="icon">02</div>
-            <h3>Web Design</h3>
-            <p>Interfacce moderne, usabili e pronte per il tuo pubblico.</p>
-          </div>
-
-          <div class="service-card">
-            <div class="icon">03</div>
+      <section id="projects" class="section container">
+        <h2>Progetti</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Portfolio</h3>
+            <p>Un sito personale per mostrare competenze e lavori.</p>
+          </article>
+          <article class="card">
             <h3>Landing Page</h3>
-            <p>Pagine persuasive costruite per convertire visitatori in clienti.</p>
-          </div>
+            <p>Pagina web per presentare un’attività o un servizio.</p>
+          </article>
+          <article class="card">
+            <h3>Brand</h3>
+            <p>Identità visiva e comunicazione digitale semplice ed efficace.</p>
+          </article>
         </div>
+      </section>
+
+      <section id="contact" class="section container contact">
+        <h2>Contatti</h2>
+        <p>Email: alessio@example.com</p>
+        <p>Instagram: @alessio</p>
       </section>
     </main>
 
-    <footer id="contact" class="site-footer">
+    <footer class="site-footer">
       <div class="container footer-inner">
-        <div>
-          <p class="eyebrow">Contatti</p>
-          <h2>Parliamone.</h2>
-        </div>
-
-        <div class="footer-actions">
-          <a href="mailto:alessio@example.com" class="button button-primary">alessio@example.com</a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" class="button button-secondary">LinkedIn</a>
-        </div>
-      </div>
-
-      <div class="container footer-bottom">
-        <p>© <span id="year"></span> Alessio Vaccarone</p>
+        <p>© 2026 Alessio Vaccarone</p>
       </div>
     </footer>
 

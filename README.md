@@ -1,14 +1,14 @@
-# Alessio Vaccarone Portfolio
+# Sito personale di Alessio Vaccarone
 
-Questo repository contiene un sito web portfolio statico creato in HTML, CSS e JavaScript.
+Questo repository contiene un semplice sito web statico in HTML, CSS e JavaScript.
 
-## Come usare
+## Come aprirlo
 
-- Apri `index.html` nel browser per vedere il sito localmente.
-- Per pubblicarlo su GitHub Pages in futuro, abilita Pages nel repository e seleziona il ramo `main`.
+- Apri `index.html` nel browser.
+- Oppure usa un server locale se vuoi vederlo in modo più fedele.
 
 ## Struttura
 
-- `index.html` — pagina principale
-- `styles.css` — stili del sito
-- `script.js` — script piccolo e leggibile
+- `index.html` — contenuto principale
+- `styles.css` — stile del sito
+- `script.js` — script semplice
